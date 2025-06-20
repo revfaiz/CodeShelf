@@ -18,9 +18,7 @@ export async function deletesnippet(id: number) {
     await db.snippet.delete({
         where: { id }
     });
-    revalidatePath("/");
-    revalidatePath(`/snippets/${id}`);
-    redirect("/");
+   
 }
 
 export async function createSnippet(formState: { message: string }, formData: FormData) {
