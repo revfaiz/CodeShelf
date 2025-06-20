@@ -19,6 +19,7 @@ export async function deletesnippet(id: number) {
         where: { id }
     });
     revalidatePath("/");
+    revalidatePath(`/snippets/${id}`);
     
 }
 
