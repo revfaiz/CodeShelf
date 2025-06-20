@@ -18,7 +18,7 @@ export default function SnippetCreatePage() {
         <div className="flex flex-col gap-6" >
           <div className="flex flex-col gap-2">
             <label className="font-semibold text-gray-700" htmlFor="title">
-              Title
+              Title For the Snippet
             </label>
             <input
               name="title"
