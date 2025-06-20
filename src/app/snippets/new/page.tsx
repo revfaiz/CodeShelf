@@ -13,7 +13,7 @@ export default function SnippetCreatePage() {
         className="bg-white shadow-lg rounded-lg p-8 w-full max-w-lg border border-gray-200"
       >
         <h3 className="font-bold text-center text-2xl mb-6 text-blue-700">
-          Snippet
+          Create a 
         </h3>
         <div className="flex flex-col gap-6" >
           <div className="flex flex-col gap-2">
