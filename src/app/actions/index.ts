@@ -20,7 +20,7 @@ export async function deletesnippet(id: number) {
     });
     revalidatePath("/");
     revalidatePath(`/snippets/${id}`);
-    
+    redirect("/");
 }
 
 export async function createSnippet(formState: { message: string }, formData: FormData) {
